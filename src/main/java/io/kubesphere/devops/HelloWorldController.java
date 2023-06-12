@@ -16,4 +16,8 @@ public class HelloWorldController {
     public String sayHello() {
         return "tReally appreciate your star, that's the power of our life.";
     }
+    @RequestMapping("/t")
+    public String t() {
+        return "t1";
+    }
 }
