@@ -18,6 +18,6 @@ public class HelloWorldController {
     }
     @RequestMapping("/t")
     public String t() {
-        return "t2";
+        return "t3";
     }
 }
